@@ -9,7 +9,13 @@ audit (see the curation gate in the mirror plan).
 
 | GitHub repo | Forgejo upstream | License | Last audit | Notes |
 | --- | --- | --- | --- | --- |
-| _(none yet — Phase 2 pending)_ | | | | |
+| [claude-harness-seed](https://github.com/farmhack-community/claude-harness-seed) | `farmhack-boxes/claude-harness-seed` | _none yet (TODO)_ | 2026-05-28 | Reusable Claude Code harness seed. Template addresses sanitized to `${BOX_*}` placeholders upstream before first mirror. |
+
+## Deferred — not mirrored
+
+| Repo | Reason |
+| --- | --- |
+| `claude-workflow-archive` | Git history contains live credentials (Forgejo OAuth token, farm-pos JWT secret, DB/WiFi passwords) and box-internal addresses across memory/plan archives. Needs full history rewrite + credential rotation before any public mirror. |
 
 ## Mirror mechanism
 
