@@ -9,7 +9,7 @@ audit (see the curation gate in the mirror plan).
 
 | GitHub repo | Forgejo upstream | License | Last audit | Notes |
 | --- | --- | --- | --- | --- |
-| [claude-harness-seed](https://github.com/farmhack-community/claude-harness-seed) | `farmhack-boxes/claude-harness-seed` | GPL-3.0 | 2026-05-28 | Reusable Claude Code harness seed. Template addresses sanitized to `${BOX_*}` placeholders upstream before first mirror. |
+| [farmhack-box-public-mirror](https://github.com/farmhack-community/farmhack-box-public-mirror) | `farmhack-boxes/claude-harness-seed` | GPL-3.0 | 2026-05-28 | Reusable Claude Code harness seed. Renamed from `claude-harness-seed`; read-only banner lives upstream so it survives force-push. Template addresses sanitized to `${BOX_*}` placeholders upstream before first mirror. |
 
 ## Deferred — not mirrored
 
